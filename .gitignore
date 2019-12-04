@@ -1,0 +1,11 @@
+##VS files
+.vs
+
+## build and release
+[Bb]in/
+[Dd]ebug/
+[Rr]elease
+[Oo]bj/
+
+##user specific files
+*.user
