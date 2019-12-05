@@ -14,6 +14,15 @@ namespace CityInfo.API
     {
         public static void Main(string[] args)
         {
+            ////the below code is almost equivalent to this
+            //var host = new WebHostBuilder()
+            //    .UseKestrel() //type of server
+            //    .UseContentRoot(Directory.GetCurrentDirectory()) //content directory
+            //    .UseIISIntegration() //iis integration/ reverse proxy
+            //    .UseStartup<Startup>() //startup class
+            //    .Build(); //build with basics
+            //host.Run(); //finally run
+
             CreateWebHostBuilder(args).Build().Run();
         }
 
